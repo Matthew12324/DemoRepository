@@ -8,6 +8,7 @@ package Locator;
  * status_Found: Returns true if item status is found
  * Returns
  */
+
 public class Owner
 {
 	private boolean itemLost;
@@ -41,6 +42,5 @@ public class Owner
 		
 		System.out.println("\nitemLost="+this.itemLost
 							+ "\nitemFound="+this.itemFound);
-		
 	}
 }
